@@ -7,19 +7,29 @@ public class Scholar {
 
   
     public static void main(String[] args) {
-        empleados empleado1=new empleados();
-        empleado1.nombre="Luis Andrés ";
-        empleado1.apellido="Padilla Romero ";
         
-        empleado1.printName();
+        ventana1 v = new ventana1();
+        v.setVisible(true);
         
-        estudiante estudiante1=new estudiante();
-        estudiante1.nombre="Luis Andrés";
-        estudiante1.apellido="Padilla Romero";
         
-               
-        //System.out.println("nombre del estudiante :" + estudiante1.nombre + estudiante1.apellido) ;
-      //System.out.println ("nombre del empleado :" + empleado1.nombre + empleado1.apellido);
+//        empleados empleado1=new empleados();
+//        empleado1.nombre="Luis Andrés ";
+//        empleado1.apellido="Padilla Romero ";
+//        empleado1.Estado_civil=" Aux Administrativo ";
+//        empleado1.direcion=" Cra 21F #83B56";
+//        empleado1.fecha_nacimiento=" 12/10/1999";
+//        
+//        //System.out.println(this.nombre+" "+this.apellido);
+//        empleado1.printNombre();
+//        //System.out.println("fecha de nacimiento " + this.fechadenacimiento);
+//        empleado1.printfecha_nacimiento();
+//        //System.out.println("edad " + this.calcuEdad()  );
+//        empleado1.printedad();
+//        
+//       empleado1.getEdad();
+//        System.out.println("la edad es " + empleado1.calcuEdad());
     }
-    
 }
+
+    
+
